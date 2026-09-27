@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "vibecode",
+  "version": "${version}",
+  "name": "VibeCode Client",
+  "description": "VibeCode Client for Minecraft 1.21.11",
+  "authors": [
+    "VibeCode"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.vibecode.client.VibeCodeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
